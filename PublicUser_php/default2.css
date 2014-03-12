@@ -1,0 +1,506 @@
+/**Shane Gibbons / K00097327**/
+/**02/05/2013**/
+/**Wind Turbine Process Analyser**/
+/**CSS Log in & Registration file**/
+
+
+/**HTML & body tags**/
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background: #080808 url(wind-turbines.jpg) no-repeat;
+	background-position: center;
+	background-attachment:fixed;
+	background-size:cover;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 13px;
+	color: #2B2B2B;
+}
+
+
+
+
+/**Secondary heading, picture & list tags**/
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+strong {
+}
+
+a {
+	color: #0000FF;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+img.border {
+}
+
+img.alignleft {
+	float: left;
+}
+
+img.alignright {
+	float: right;
+}
+
+img.aligncenter {
+	margin: 0px auto;
+}
+
+hr {
+	display: none;
+}
+
+#space {
+padding: 100px; 
+}
+
+
+
+
+/** WRAPPER */
+#wrapper {
+}
+
+.container {
+	width: 1000px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+
+/** HEADER */
+#header {
+	overflow: hidden;
+	width: 1000px;
+	height: 150px;
+	padding: 0px 0px;
+	background: url(images/gradient-bg.png) no-repeat center top;
+}
+
+
+
+
+/** LOGO */
+#logo {
+	float: left;
+	width: 400px;
+	height: 200px;
+}
+
+#logo h1, #logo p {
+	margin: 0px;
+	line-height: normal;
+}
+
+#logo h1 a {
+	display: block;
+	line-height: 35px;
+	padding-top: 50px;
+	text-decoration: none;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+
+
+
+
+/** MENU */
+#menu {
+	float: right;
+	width: 600px;
+	height: 99px;
+}
+
+#menu ul {
+	float: right;
+	margin: 0px;
+	padding: 60px 0px 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+	margin-left: 1em;
+}
+
+#menu a {
+	display: block;
+	padding: 5px 5px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-size: 1em;
+	font-weight: 600;
+	color: #FFFFFF;
+}
+
+#menu .active a
+{
+	background: #0091E6;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+
+
+
+/** PAGE */
+#page {
+	overflow: hidden;
+	width: 900px;
+	padding: 70px 50px 50px 50px;
+	background-color: #FFFFFF;
+	border-radius: 10px 10px 0px 0px;
+}
+
+#page h2
+{
+	margin-bottom: 30px;
+}
+
+
+
+
+/** CONTENT */
+#content {
+	float: right;
+	width: 580px;
+	font-size: 1.2em;
+}
+
+#content #onecolumn
+{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #D4D4D4;
+}
+
+#content h2
+{
+	letter-spacing: -1px;
+	font-size: 3em;
+}
+
+
+
+
+/** SIDEBAR */
+#sidebar {
+	float: left;
+	width: 260px;
+	padding-top: 10px;
+}
+
+#sidebar #sbox1
+{
+	margin-bottom: 40px;
+}
+
+#sidebar #sbox2
+{
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+#sidebar #sbox3
+{
+	overflow: hidden;
+}
+
+
+
+
+/** BANNER */
+#banner {
+	overflow: hidden;
+	padding: 50px 0px 0px 0px;
+	background: #A11C47 url(images/banner-bg.png) repeat;
+	border-radius: 10px 10px 0px 0px;
+}
+
+		#banner:before
+		{
+			content: '';
+			width: 100%;
+			height: 100%;
+			display: block;
+			position: absolute;
+			background: url('images/gradient-bg.png') no-repeat right top;
+			background-size: 100% 100%;
+			top: 0px;
+			right: 0px;
+		}
+
+
+		
+		
+/* Footer */
+#footer {
+	overflow: hidden;
+	font-size: 1.2em;
+	width: 900px;
+	padding: 70px 50px 50px 50px;
+	background-color: #161616;
+	border-top: 6px solid #000000;
+	border-radius: 0px 0px 10px 10px;
+}
+
+#footer h2
+{
+	padding: 0px 0px 50px 0px;
+	font-weight: 400;
+	color: #D3D3D3;
+}
+
+#footer p {
+	color: #4E4E4E;
+}
+
+#footer #fbox1 {
+	float: left;
+	width: 260px;
+	margin-right: 60px;
+}
+
+#footer #fbox2 {
+	float: left;
+	width: 260px;
+}
+
+#footer #fbox3 {
+	float: right;
+	width: 260px;
+}
+
+#copyright
+{
+	overflow: hidden;
+	width: 900px;
+	padding: 50px;
+}
+
+#copyright p
+{
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0,0,0,1);
+}
+
+#copyright a
+{
+	color: #4E4E4E;
+}
+
+
+
+
+/**List style 1**/
+ul.style1
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style1 li
+{
+	padding: 10px 0px 20px 0px;
+	border-top: 1px solid #242424;
+}
+
+ul.style1 a
+{
+	color: #4E4E4E;
+}
+
+ul.style1 .first
+{
+	padding-top: 0px;
+	border-top: none;
+}
+
+ul.style2
+{
+	margin: 30px 0px 0px 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style2 li
+{
+	float: left;
+	margin-right: 10px;
+}
+
+ul.style3
+{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+ul.style3 li
+{
+	padding: 10px 0px 20px 0px;
+	border-top: 1px solid #E0E0E0;
+}
+
+ul.style3 a
+{
+	color: #4E4E4E;
+}
+
+ul.style3 .first
+{
+	padding-top: 0px;
+	border-top: none;
+}
+
+
+ul.style2 li a:hover {
+
+	color: #000000;
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+#two-column
+{
+	padding-top: 50px;
+}
+
+.box-content
+{
+	overflow: hidden;
+	margin-bottom: 4em;
+}
+
+.box-content p
+{
+	padding-left: 60px;
+}
+
+.title
+{
+	display: block;
+	padding-left: 60px;
+	padding-bottom: 1em;
+	font-size: 2em !important;
+	font-weight: 600;
+	color: #333333;
+}
+
+.title01
+{
+	background: url(images/icon01.png) no-repeat left top;
+}
+
+.title02
+{
+	background: url(images/icon02.png) no-repeat left top;
+}
+
+
+
+
+/* List Style 2 */
+.list-style1 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.list-style1 li {
+	padding: 20px 0px 20px 0px;
+	border-top: 1px solid #D4D4D4;
+}
+
+.list-style1 .date {
+	font-weight: bold;
+	color: #212121;
+}
+
+.list-style1 img {
+	float: left;
+	margin-right: 25px;
+}
+
+.list-style1 .first {
+	padding-top: 0px;
+	border-top: none;
+}
+
+
+ul.list-style1 a: hover
+{
+    color: #000000;
+	opacity: 0.7;
+}
+
+
+
+
+/* List Style 3 */
+.link-style {
+	display: inline-block;
+	margin-top: 10px;
+	padding: 5px 15px;
+	background: #0091E6;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
